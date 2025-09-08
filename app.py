@@ -87,7 +87,7 @@ with st.sidebar:
     max_chars_per_chunk = st.slider(
         "Max characters per chunk",
         min_value=1500,
-        max_value=8000,
+        max_value=800000,
         value=4000,
         step=500,
         help="Text is chunked before translation to avoid context limits.",
